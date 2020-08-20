@@ -23,7 +23,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBAction func touchUpPlayPauseButton(_ sender: UIButton){
+        print("button tapped")
+    }
 
 }
+
 
 

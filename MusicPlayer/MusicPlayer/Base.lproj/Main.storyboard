@@ -32,6 +32,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="button_play"/>
                                 <state key="selected" image="button_pause"/>
+                                <connections>
+                                    <action selector="touchUpPlayPauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="poq-lV-jM8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -40,6 +43,7 @@
                     <connections>
                         <outlet property="playPauseButton" destination="Zfm-Oo-nls" id="7H0-D6-iKy"/>
                         <outlet property="progressSlider" destination="Huv-Xb-Di0" id="LyX-3o-arb"/>
+                        <outlet property="timeLabel" destination="7Wc-QJ-HDC" id="XA3-BU-PsT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
