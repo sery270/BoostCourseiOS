@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A551B81F2530245100EB9146 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551B81E2530245100EB9146 /* SecondViewController.swift */; };
 		A5E3583C24EB89B900AFA7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E3583B24EB89B900AFA7EF /* AppDelegate.swift */; };
 		A5E3583E24EB89B900AFA7EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E3583D24EB89B900AFA7EF /* SceneDelegate.swift */; };
 		A5E3584024EB89B900AFA7EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E3583F24EB89B900AFA7EF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A551B81E2530245100EB9146 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A5E3583824EB89B900AFA7EF /* SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E3583B24EB89B900AFA7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E3583D24EB89B900AFA7EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				A5E3583D24EB89B900AFA7EF /* SceneDelegate.swift */,
 				A5E3583F24EB89B900AFA7EF /* ViewController.swift */,
 				A5E3584124EB89B900AFA7EF /* Main.storyboard */,
+				A551B81E2530245100EB9146 /* SecondViewController.swift */,
 				A5E3584424EB89BA00AFA7EF /* Assets.xcassets */,
 				A5E3584624EB89BA00AFA7EF /* LaunchScreen.storyboard */,
 				A5E3584924EB89BA00AFA7EF /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A551B81F2530245100EB9146 /* SecondViewController.swift in Sources */,
 				A5E3584024EB89B900AFA7EF /* ViewController.swift in Sources */,
 				A5E3583C24EB89B900AFA7EF /* AppDelegate.swift in Sources */,
 				A5E3583E24EB89B900AFA7EF /* SceneDelegate.swift in Sources */,
