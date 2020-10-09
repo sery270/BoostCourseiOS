@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5C6443D252B2E12001797F8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C6443C252B2E12001797F8 /* ViewController2.swift */; };
 		A5E3581C24EB87BC00AFA7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E3581B24EB87BC00AFA7EF /* AppDelegate.swift */; };
 		A5E3581E24EB87BC00AFA7EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E3581D24EB87BC00AFA7EF /* SceneDelegate.swift */; };
 		A5E3582024EB87BC00AFA7EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E3581F24EB87BC00AFA7EF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5C6443C252B2E12001797F8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		A5E3581824EB87BC00AFA7EF /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E3581B24EB87BC00AFA7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E3581D24EB87BC00AFA7EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				A5E3581B24EB87BC00AFA7EF /* AppDelegate.swift */,
 				A5E3581D24EB87BC00AFA7EF /* SceneDelegate.swift */,
 				A5E3581F24EB87BC00AFA7EF /* ViewController.swift */,
+				A5C6443C252B2E12001797F8 /* ViewController2.swift */,
 				A5E3582124EB87BC00AFA7EF /* Main.storyboard */,
 				A5E3582424EB87BD00AFA7EF /* Assets.xcassets */,
 				A5E3582624EB87BD00AFA7EF /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E3582024EB87BC00AFA7EF /* ViewController.swift in Sources */,
+				A5C6443D252B2E12001797F8 /* ViewController2.swift in Sources */,
 				A5E3581C24EB87BC00AFA7EF /* AppDelegate.swift in Sources */,
 				A5E3581E24EB87BC00AFA7EF /* SceneDelegate.swift in Sources */,
 			);

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HDP-yR-p0e">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -20,7 +20,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1" y="-48"/>
+            <point key="canvasLocation" x="48" y="-82"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="9qb-MA-ZIB">
+            <objects>
+                <viewController id="HDP-yR-p0e" customClass="ViewController2" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xRl-fr-gvX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="090-Jf-QQh">
+                                <rect key="frame" x="87.5" y="50" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Ld0-KQ-xbv"/>
+                                    <constraint firstAttribute="width" constant="200" id="vvW-JN-KKD"/>
+                                </constraints>
+                                <state key="normal" image="button_play"/>
+                                <state key="selected" image="button_pause"/>
+                                <connections>
+                                    <action selector="touchUpPlayPauseButtonWith_sender:" destination="HDP-yR-p0e" eventType="touchUpInside" id="SXl-Rv-cQn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8K-RO-qj2">
+                                <rect key="frame" x="149.5" y="265" width="76" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NSg-DH-Lgj">
+                                <rect key="frame" x="35.5" y="302" width="304" height="31"/>
+                                <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="rLS-Hq-hF1"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderValueChangedOneWith_sender:" destination="HDP-yR-p0e" eventType="valueChanged" id="Dwa-nd-xRs"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="D8K-RO-qj2" firstAttribute="top" secondItem="090-Jf-QQh" secondAttribute="bottom" constant="15" id="5oy-oa-9xr"/>
+                            <constraint firstItem="NSg-DH-Lgj" firstAttribute="centerX" secondItem="xRl-fr-gvX" secondAttribute="centerX" id="PgB-zK-dst"/>
+                            <constraint firstItem="090-Jf-QQh" firstAttribute="centerX" secondItem="xRl-fr-gvX" secondAttribute="centerX" id="ei5-Tm-Ca4"/>
+                            <constraint firstItem="NSg-DH-Lgj" firstAttribute="top" secondItem="D8K-RO-qj2" secondAttribute="bottom" constant="16" id="erE-yj-TY5"/>
+                            <constraint firstItem="090-Jf-QQh" firstAttribute="top" secondItem="jMc-4l-pWp" secondAttribute="top" constant="50" id="mSP-rq-BGG"/>
+                            <constraint firstItem="D8K-RO-qj2" firstAttribute="centerX" secondItem="xRl-fr-gvX" secondAttribute="centerX" id="wfw-BU-2B9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jMc-4l-pWp"/>
+                    </view>
+                    <connections>
+                        <outlet property="playPauseButton" destination="090-Jf-QQh" id="37S-hC-rTg"/>
+                        <outlet property="progressSlider" destination="NSg-DH-Lgj" id="7Fn-hF-HMO"/>
+                        <outlet property="timeLabel" destination="D8K-RO-qj2" id="yzP-8H-0GJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qeD-sA-vva" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897.10144927536237" y="-48.214285714285715"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="button_pause" width="185" height="185"/>
+        <image name="button_play" width="187" height="189"/>
+    </resources>
 </document>
